@@ -15,7 +15,7 @@ const app = new Hono().basePath("/api");
 
 app.get("/", (c) => {
 	return c.json({
-		message: "JioSaavn API by Appujet",
+		message: "JioSaavn API by Nazha Team",
 	});
 });
 
